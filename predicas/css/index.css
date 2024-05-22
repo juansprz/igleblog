@@ -1,0 +1,136 @@
+*{margin: 0; padding: 0; font-family: 'Open Sans', sans-serif;}
+
+#contenido{
+	width: 100%;
+	padding: 80px;
+	overflow-x: hidden; 
+	background-color: #efefef;
+}
+
+#entrada{
+	width: 27%;
+	margin: 10px 3.1%;
+	background-color: #fff;
+	float: left;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+#entrada p{
+	background-color: #fff;
+}
+
+#entrada-img{
+	background-color: #fff;
+}
+
+#entrada img{
+	width: 100%;
+	min-height: 200px;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+#entrada-img, #entrada img{
+	border-top-right-radius : 10px;
+	-webkit-border-top-right-radius : 10px; 
+	-moz-border-top-right-radius : 10px;
+	-o-border-top-right-radius : 10px;
+	border-top-left-radius : 10px;
+	-webkit-border-top-left-radius : 10px; 
+	-moz-border-top-left-radius : 10px;
+	-o-border-top-left-radius : 10px;
+}
+
+#entrada-info{
+	background-color: #fff;
+	padding-bottom: 50px;
+	border-bottom-right-radius : 10px;
+	-webkit-border-bottom-right-radius : 10px; 
+	-moz-border-bottom-right-radius : 10px;
+	-o-border-bottom-right-radius : 10px;
+	border-bottom-left-radius : 10px;
+	-webkit-border-bottom-left-radius : 10px; 
+	-moz-border-bottom-left-radius : 10px;
+	-o-border-bottom-left-radius : 10px;
+}
+
+.title-entrada{
+ 	text-align: left;
+ 	padding: 10px 15px 5px 15px;
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	text-overflow:ellipsis;
+	white-space:nowrap; 
+ 	overflow:hidden;
+
+}
+
+.autor-entrada{
+	text-align: left;
+ 	padding: 0px 15px;
+ 	font-size: 15px;
+  	letter-spacing: 2px;
+  	margin-bottom: 25px;
+  	text-overflow:ellipsis;
+	white-space:nowrap; 
+ 	overflow:hidden;
+}
+
+.btn-entrada{
+	text-decoration: none;
+	color: #fff;
+	background-color: #B2182D;
+	padding: 10px 15px;
+	margin-left: 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+#pagination{
+	width: 100%;
+	margin-top: 25px;
+	float: left;
+}
+
+#pagination a{
+	background-color: transparent;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+#btn-back{
+	background-color: #000;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 25px;
+	text-decoration: none;
+}
+
+@media screen and (max-width:750px ) {
+#contenido{
+	padding: 15px;
+}
+
+#entrada{
+	width: 90%;
+	margin: 20px 5%;
+}
+
+.title-entrada{
+ 	font-size: 18px;
+
+
+}
+
+
+}
+
+

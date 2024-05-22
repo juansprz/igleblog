@@ -1,0 +1,85 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+form{
+	width: 40%;
+	margin: 40px auto;
+	padding: 30px 40px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	background: linear-gradient(to left, #499cea, #207ce5);
+}
+
+input, textarea{
+	width: 100%;
+	margin: 3px 0px 10px 0px;
+	padding: 7px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: none;
+	letter-spacing: 1px; 
+}
+
+button{
+	width: 250px;
+	margin-left: 125px;
+	left: 50%;
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	background-color: #115cad;
+	color: #fff;
+	border:none;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+h1{
+	letter-spacing: 4px;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	border-bottom: 3px #fff solid;
+	color: #fff
+}
+
+#txtEntrada{
+ 	max-width: 100%;
+ 	min-width: 100%;
+ 	min-height: 100px;
+ 	height: 250px;
+ 	padding: 5px;
+ 	line-height: top;
+}
+
+h3{
+	letter-spacing: 2px;
+	color: #fff;
+	margin:0;
+}
+
+h4{
+	width: 40%;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #115cad;
+	text-align: center;
+	padding: 15px;
+}
+
+#btn-back{
+	background-color: #000;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 25px;
+	text-decoration: none;
+}

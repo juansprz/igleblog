@@ -1,0 +1,74 @@
+* {
+	padding:0;
+	margin:0;
+}
+}
+
+body {background:transparent;}
+
+#info-redes{
+	width: 100%;
+	padding: 100px;
+}
+
+.modelo-de-jesus{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	background-color: #EAEAEA;
+
+}
+
+.info-modelo{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 50px 20px;
+
+}
+
+.img-modelo{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+
+
+}
+
+#bg-modelo{
+	height: 100%;
+	background: url(/img/bg-modelodejesus.jpg) no-repeat center center  !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+@media screen and (max-width: 700px) {
+	.modelo-de-jesus{
+		padding: 20px 0;
+	}
+
+	.img-modelo{
+		display: none;
+	}
+
+	.info-modelo{
+		width: 100%;
+		float: none;
+
+	}
+
+	#info-redes{
+		width: 90%;
+		padding: 0;
+		margin: 0 auto;
+		margin-top: 50px; 
+		margin-bottom: 50px; 
+		
+		
+	}
+
+}

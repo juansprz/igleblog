@@ -1,0 +1,95 @@
+body {background:transparent;}
+
+.footer{
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #191919;
+	border-bottom: 5px solid #A00305; 
+	overflow: hidden;
+
+}
+
+.redes-sociales{
+	width: 230px;
+	margin: 0 auto;
+
+}
+
+span{
+	font-size: 24px;
+	color: white;
+	margin-right: 30px;
+
+}
+
+.info-foot{
+	width: 840px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-bottom: solid 1px #656263;
+
+}
+
+.ser-domingo{
+	float: left;
+
+}
+
+.ser-miercoles, .ser-oracion{
+	float: left;
+	margin-left: 150px;
+
+}
+
+#title-foot{
+	font-size: 16px;
+	font-family:arial;
+	font-weight: bold;
+	color: white;
+
+}
+
+#text-foot{
+	font-size: 15px;
+	font-family:arial;
+	color: white;
+
+}
+
+.logo-foot{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#logo-foot{
+	width: 200px;
+}
+
+#copyright{
+	text-align: center;
+	font-family: "Raleway", Arial, Tahoma, sans-serif;
+	color: #656263;
+	margin-top: 30px;
+
+}
+
+@media screen and (max-width: 900px) {
+	
+	.info-foot{
+		width: 90%;
+		height: 600px;
+	}
+
+	.ser-domingo, .ser-miercoles, .ser-oracion{
+	width: 100%;
+	margin-bottom: 50px;
+	margin-left: 0;
+	float: left;
+
+	}
+
+
+}
